@@ -1,0 +1,130 @@
+@media (min-width: 768px) and (max-width:959px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .login__block {
+        max-width: 20.3%;
+        margin: 0;
+    }
+
+    .header__login-with-title-block {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        max-width: 85.9%;
+    }
+
+    .header-background {
+        background-image: url("../img/header-tablet.png");
+        background-color: rgb(26, 25, 21);
+    }
+
+    .header__sub-title {
+        max-width: 69.2%;
+        margin: 0 auto;
+        font-size: 3.25rem;
+    }
+
+    .header__descrpiption {
+        font-size: 1.5rem;
+    }
+
+    .find-partner-button {
+        max-width: 29.4%;
+    }
+
+    .meet-your-partner-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 52.6%;
+        margin: 0 auto;
+    }
+
+    .meet-your-partner-list-item:nth-of-type(1) {
+        order: 1;
+    }
+
+    .meet-your-partner-list-item:nth-of-type(2) {
+        order: 3;
+    }
+
+    .meet-your-partner-list-item:nth-of-type(3) {
+        order: 2;
+    }
+
+    .meet-your-partner-list-item:nth-of-type(4) {
+        order: 4;
+    }
+
+    .see-another-partners-button-block {
+        margin: 0 auto;
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        max-width: 1440px;
+    }
+
+    .login__block {
+        max-width: 14.2%;
+        margin: 0;
+    }
+
+    .header__login-with-title-block {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        max-width: 65.4%;
+    }
+
+    .header-background {
+        background-image: url("../img/header-desktop.png");
+        background-color: rgb(26, 25, 21);
+    }
+
+    .header__sub-title {
+        max-width: 36.0%;
+        margin: 0 auto;
+        font-size: 3.25rem;
+    }
+
+    .header__descrpiption {
+        font-size: 1.5rem;
+    }
+
+    .find-partner-button {
+        max-width: 15.6%;
+    }
+
+    .meet-your-partner-list {
+        display: flex;
+        justify-content: space-between;
+        width: 65.4%;
+        margin: 0 auto;
+    }
+
+    .meet-your-partner-list-item:nth-of-type(1) {
+        order: 1;
+    }
+
+    .meet-your-partner-list-item:nth-of-type(2) {
+        order: 3;
+    }
+
+    .meet-your-partner-list-item:nth-of-type(3) {
+        order: 2;
+    }
+
+    .meet-your-partner-list-item:nth-of-type(4) {
+        order: 4;
+    }
+
+    .see-another-partners-button-block {
+        margin: 0 auto;
+        max-width: 13.3%;
+    }
+}
