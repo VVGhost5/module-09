@@ -37,6 +37,7 @@
 
 .header {
   padding-top: 28px;
+  padding-bottom: 138px;
   background-position: center 0;
   background-image: url("../img/header-desktop.png");
   background-color: rgb(26, 25, 21);
@@ -45,7 +46,7 @@
 }
 
 .authorization__block {
-  margin-bottom: 125px;
+  margin-bottom: 128px;
 }
 
 .authorization__list {
@@ -70,8 +71,8 @@
 }
 
 .authorization__button::before {
-  content: "";
   position: absolute;
+  content: "";
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -89,7 +90,8 @@
   border-radius: 1.25rem;
 }
 
-.header__title {
+.header__logo {
+  margin-bottom: 36px;
   font-size: 1.25rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -99,12 +101,12 @@
 
 .header__block {
   text-align: center;
-  padding-bottom: 26px;
 }
 
 .header__sub-title {
+  max-width: 276px;
   margin: 0 auto;
-  margin-bottom: 1.125rem;
+  margin-bottom: 18px;
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -113,7 +115,7 @@
 }
 
 .header__descrpiption {
-  max-width: 77.8%;
+  max-width: 218px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
@@ -124,9 +126,8 @@
 
 .header__button {
   display: block;
-  margin: 0 auto;
-  margin-bottom: 110px;
-  width: 100%;
+  margin: auto auto;
+  min-width: 280px;
   height: 2.5rem;
   outline: none;
   border: none;
@@ -145,14 +146,25 @@
   color: var(--find-your-partner-button-color);
 }
 
-.meet-your-partner-title {
+.meet-your-partner {
   padding-top: 65px;
+  padding-bottom: 56px;
+}
+
+.meet-your-partner__block {
   margin-bottom: 18px;
+}
+
+.meet-your-partner__title {
   text-align: center;
   font-size: 22px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: var(--meet-partner-title-color);
+}
+
+.meet-your-partner__list-item {
+  margin-bottom: 20px;
 }
 
 .partner-card {
@@ -210,7 +222,7 @@
 
 .partner-card__name {
   text-align: center;
-  margin-bottom: 1.125rem;
+  margin-bottom: 18px;
   font-size: 0.875rem;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
@@ -218,7 +230,6 @@
 }
 
 .partner-card__descrpiption {
-  padding-bottom: 20px;
   text-align: center;
   font-size: 0.875rem;
   font-family: "Roboto", sans-serif;
@@ -226,12 +237,11 @@
   color: var(--partner-descrpiption);
 }
 
-.see-another-partners-button {
+.see-another-partners__button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 3.5rem;
-  width: 96.5%;
+  min-width: 280px;
   height: 2.5rem;
   outline: none;
   border-radius: 1.25rem;
@@ -244,7 +254,7 @@
   transition: background-color 0.2s linear, color 0.2s linear;
 }
 
-.see-another-partners-button:hover {
+.see-another-partners__button:hover {
   cursor: pointer;
   background-color: var(--see-other-partner-button-color);
   color: var(--see-other-partner-button-hover-color);
@@ -254,38 +264,30 @@
 
   .header {
     padding-top: 50px;
-    background-size: auto;
+    padding-bottom: 234px;
+    background-size: cover;
   }
 
   .authorization__block {
-    margin-bottom: 146px;
+    margin-bottom: 160px;
   }
 
   .header__sub-title {
+    min-width: 504px;
     font-size: 52px;
   }
 
   .header__descrpiption {
+    min-width: 404px;
     font-size: 24px;
     margin-bottom: 40px;
   }
 
   .header__button {
-    width: 48.9%;
-    margin-bottom: 206px;
+    min-width: 226px;
   }
 
-  .partner-card__descrpiption {
-    margin-bottom: 40px;
-  }
-
-  .see-another-partners-button {
-    max-width: 90.5%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .see-another-partners-button {
-    max-width: 55.5%;
+  .see-another-partners__button {
+    min-width: 192px;
   }
 }
